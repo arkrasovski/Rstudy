@@ -28,8 +28,8 @@ addten <- function(x) {
 addten(dogs)
 kekdogs
 
-rm(kekdogs) # удаляет переменные из глобального окружения
-rm(moredogs)
+#rm(kekdogs) # удаляет переменные из глобального окружения
+#rm(moredogs)
 
 rm(list = ls()) # удаление всех переменных из глобального окружения
 ls()
@@ -53,4 +53,4 @@ divide(Inf, Inf)
 ?ls
 ?"function"
 ?rm
-?rnorm
+#?rnorm

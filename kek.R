@@ -11,8 +11,8 @@ pets
 
 ls() # все глобальные переменные
 ?rnorm
-rnorm(15)
-rnorm(15, mean = 5, sd = 3)
+rnorm(15) #15 элементов из норм распределения
+rnorm(15, mean = 5, sd = 3) #среднее = 5, стандартное отклонение 3
 
 returntwo <- function() {
   y <- 2
@@ -32,4 +32,25 @@ rm(kekdogs) # удаляет переменные из глобального о
 rm(moredogs)
 
 rm(list = ls()) # удаление всех переменных из глобального окружения
+ls()
 
+??logarithm
+
+log2((sin(atan(1)))^2)
+
+divide <- function(x, y) {
+  return(x/y)
+}
+divide(1, 0)
+divide(-99999, 0)
+divide(0, 0)
+divide(Inf, Inf)
+
+#Общий глоссарий для этого урока:
+?help
+?help.search
+?"<-"
+?ls
+?"function"
+?rm
+?rnorm

@@ -127,6 +127,9 @@ floor(seq(0, 3, by = 0.25))
 #не векторизована
 sum(1:100)
 
-is_valid_name("xXx_TerM1Nat0R_xXx")
+#возвращает имя если уникальное, в противном случае изменяет
 ??'valid name'
 make.names("2b.or.not.2b", unique=TRUE)
+
+
+

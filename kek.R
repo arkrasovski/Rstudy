@@ -54,3 +54,6 @@ divide(Inf, Inf)
 ?"function"
 ?rm
 #?rnorm
+
+?save
+save.image(file=".RData")

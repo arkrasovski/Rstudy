@@ -127,6 +127,9 @@ floor(seq(0, 3, by = 0.25))
 #не векторизована
 sum(1:100)
 
-is_valid_name("xXx_TerM1Nat0R_xXx")
+
 ??'valid name'
-make.names("2b.or.not.2b", unique=TRUE)
+make.names("2b.or.not.2b", unique=TRUE)1+10
+
+
+

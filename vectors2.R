@@ -180,6 +180,6 @@ combin_count <- function(n, k, with_repretitions = FALSE) {
   } 
   return(factorial(n) / (factorial(k) * factorial(n-k)))
 }
-
-
+x <- seq(-2*pi, 2*pi, 0.1)
+plot(x, cos(x))
 

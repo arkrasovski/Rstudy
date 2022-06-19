@@ -180,3 +180,13 @@ lp_norm <- function(x, p = 2) {
 }
 lp_norm(1:10, -1:4)
 
+lp_norm <- Vectorize(lp_norm, "p")
+lp_norm(1:10, -1:4)
+
+df1 <- data.frame(id = 1:2, value = rnorm(2))
+df2 <- data.frame(id = 3:4, value = runif(2))
+df3 <- data.frame(id = 222, value = 7)
+do.call(rbind, list(df1, df2, df3)) #rbind(df1, df2, df3)
+
+do.call(rbind, lapply(list.files(), function(file) read.csv(file)))
+
